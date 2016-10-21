@@ -1,0 +1,163 @@
+.vertical-center {
+    min-height: 100%;
+    min-height: 100vh;
+
+    display:flex;
+    align-items: center;
+    background-color: #1D1F21;
+    margin-bottom: -1px;
+}
+
+.body {
+    height: 100%;
+}
+
+* {
+    border-radius: 0 !important;
+}
+
+.container {
+    background-color: #1D1F21;
+    border-style: solid;
+    border-width: 25px 5px 5px 5px;
+    border-color: #3a3a3a;
+    width: 952px;
+    padding: 25px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 13px;
+}
+
+li a {
+    color: #c5c8c6;
+}
+
+li a:hover, li a:visited, li a:active {
+    text-decoration: none;
+    transition:.5s;
+}
+
+#main {
+    color: #CC6666;
+}
+
+
+#main ul li a:visited {
+    color: #c5c8c6;
+}
+
+#main ul li a:hover {
+    color: #CC6666;
+}
+
+#jp {
+    color: #81A2BE;
+}
+
+#jp ul li a:visited {
+    color: #c5c8c6;
+}
+
+#jp ul li a:hover {
+    color: #81A2BE;
+}
+
+#boards {
+    color: #B5BD68;
+}
+
+#boards ul li a:visited {
+    color: #c5c8c6;
+}
+
+#boards ul li a:hover {
+    color: #B5BD68;
+}
+
+#dev {
+    color: #B294BB;
+}
+
+#dev ul li a:visited {
+    color: #c5c8c6;
+}
+
+#dev ul li a:hover {
+    color: #B294BB;
+}
+
+#docs {
+    color: #F0C674;
+}
+
+#docs ul li a:visited {
+    color: #c5c8c6;
+}
+
+#docs ul li a:hover {
+    color: #F0C674;
+}
+
+#utils {
+    color: #8ABEB7;
+}
+
+#utils ul li a:visited {
+    color: #c5c8c6;
+}
+
+#utils ul li a:hover {
+    color: #8ABEB7;
+}
+
+@media (min-width: 544px) {
+  .container {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    font-size: 16px;
+  }
+}
+
+.form-control {
+    background-color: #1D1F21;
+    display:none;
+    padding: 0px;
+    border: none;
+    color: #c5c8c6;
+}
+
+input[type="search-input"]:focus {
+    background-color: #1D1F21;
+    color: #c5c8c6;
+}
+
+input[type="search-input"]:hover {
+    background-color: #222426;
+    color: #c5c8c6;
+}
+#searchform {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+form {
+    display: inline-block;
+    width: 90%;
+}
+
+label {
+    color: #CC6666;
+    display:inline-block;
+    float: left;
+    padding-right: 1em;
+}
