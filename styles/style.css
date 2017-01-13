@@ -1,11 +1,6 @@
-.vertical-center {
-    min-height: 100%;
-    min-height: 100vh;
-
-    display:flex;
-    align-items: center;
-    background-color: #1D1F21;
-    margin-bottom: -1px;
+@font-face {
+    font-family: Inconsolata;
+    src: url(Inconsolata-Regular.ttf);
 }
 
 .body {
@@ -27,6 +22,10 @@
     font-size: 13px;
 }
 
+.hero.is-dark {
+    background-color: #1D1F21
+}
+
 li a {
     color: #c5c8c6;
 }
@@ -36,16 +35,16 @@ li a:hover, li a:visited, li a:active {
     transition:.5s;
 }
 
-#main {
+#google {
     color: #CC6666;
 }
 
 
-#main ul li a:visited {
+#google ul li a {
     color: #c5c8c6;
 }
 
-#main ul li a:hover {
+#google ul li a:hover {
     color: #CC6666;
 }
 
@@ -53,7 +52,7 @@ li a:hover, li a:visited, li a:active {
     color: #81A2BE;
 }
 
-#jp ul li a:visited {
+#jp ul li a {
     color: #c5c8c6;
 }
 
@@ -65,7 +64,7 @@ li a:hover, li a:visited, li a:active {
     color: #B5BD68;
 }
 
-#boards ul li a:visited {
+#boards ul li a {
     color: #c5c8c6;
 }
 
@@ -77,7 +76,7 @@ li a:hover, li a:visited, li a:active {
     color: #B294BB;
 }
 
-#dev ul li a:visited {
+#dev ul li a {
     color: #c5c8c6;
 }
 
@@ -89,7 +88,7 @@ li a:hover, li a:visited, li a:active {
     color: #F0C674;
 }
 
-#docs ul li a:visited {
+#docs ul li a {
     color: #c5c8c6;
 }
 
@@ -101,12 +100,24 @@ li a:hover, li a:visited, li a:active {
     color: #8ABEB7;
 }
 
-#utils ul li a:visited {
+#utils ul li a {
     color: #c5c8c6;
 }
 
 #utils ul li a:hover {
     color: #8ABEB7;
+}
+
+#server {
+    color: #707880;
+}
+
+#server ul li a {
+    color: #c5c8c6;
+}
+
+#server ul li a:hover {
+    color: #707880;
 }
 
 @media (min-width: 544px) {

@@ -1,0 +1,28 @@
+{
+  "name": "startpage",
+  "version": "0.2.0",
+  "description": "A custom startpage",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arbauman/startpage.git"
+  },
+  "keywords": [
+    "startpage"
+  ],
+  "author": "arbauman <arbauman207@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arbauman/startpage/issues"
+  },
+  "homepage": "https://github.com/arbauman/startpage#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.3.2",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-strip-css-comments": "^1.2.0"
+  }
+}
