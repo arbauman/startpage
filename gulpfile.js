@@ -8,5 +8,5 @@ gulp.task('minify', function() {
   .pipe(stripCSS({preserve: false}))
   .pipe(concatCSS('style.css'))
   .pipe(cleanCSS({compatibility: 'ie8'}))
-  .pipe(gulp.dest('docs'));
+  .pipe(gulp.dest('public'));
 });

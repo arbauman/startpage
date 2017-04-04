@@ -32,7 +32,7 @@ li a {
 
 li a:hover, li a:visited, li a:active {
     text-decoration: none;
-    transition:.5s;
+    transition:.1s;
 }
 
 #google {
@@ -85,7 +85,7 @@ li a:hover, li a:visited, li a:active {
 }
 
 #docs {
-    color: #F0C674;
+    color: #A64848;
 }
 
 #docs ul li a {
@@ -93,11 +93,11 @@ li a:hover, li a:visited, li a:active {
 }
 
 #docs ul li a:hover {
-    color: #F0C674;
+    color: #A64848;
 }
 
 #utils {
-    color: #8ABEB7;
+    color: #597C99;
 }
 
 #utils ul li a {
@@ -105,11 +105,23 @@ li a:hover, li a:visited, li a:active {
 }
 
 #utils ul li a:hover {
-    color: #8ABEB7;
+    color: #597C99;
+}
+
+#web {
+    color: #7B8235;
+}
+
+#web ul li a {
+    color: #c5c8c6;
+}
+
+#web ul li a:hover {
+    color: #7B8235;
 }
 
 #server {
-    color: #707880;
+    color: #845C90;
 }
 
 #server ul li a {
@@ -117,7 +129,7 @@ li a:hover, li a:visited, li a:active {
 }
 
 #server ul li a:hover {
-    color: #707880;
+    color: #845C90;
 }
 
 @media (min-width: 544px) {
